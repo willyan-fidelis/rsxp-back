@@ -3,7 +3,7 @@ import ExerciseController from './app/controllers/ExerciseController'
 
 const routes = new Router();
 
-routes.get('/', (req, res) => res.json({ message: 'Welcome to Omni CLI' }));
+routes.get('/', (req, res) => res.json({ message: 'Hello to backendhackathon CLI' }));
 
 routes.post('/exercises', ExerciseController.index);
 
